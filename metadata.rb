@@ -1,0 +1,11 @@
+name 'sparkle_apache2'
+maintainer 'Sparkle Corp'
+maintainer_email 'sparklecorp@awesomedevops.com'
+license 'Apache-2'
+description 'Sparkle Corp wrapper cookbook of apache2'
+long_description 'Sparkle Corp wrapper cookbook of apache2'
+version '0.1.0'
+chef_version '>= 12.14' if respond_to?(:chef_version)
+issues_url 'https://github.com/SparkleCorp/sparkle_apache2/issues'
+source_url 'https://github.com/SparkleCorp/sparkle_apache2'
+depends 'apache2'
